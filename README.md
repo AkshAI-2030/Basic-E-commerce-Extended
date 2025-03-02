@@ -3,10 +3,24 @@
 ## Overview
 Basic-E-commerce-Extended is an eCommerce platform expanding from fitness products to mobile phones. This API enables product listing, sorting, and filtering functionalities.
 
+## Live Demo & Resources
+ <div>
+    <a href="https://www.loom.com/share/5ba47010b9ae48fbb199bb5018297270">
+      <p>Basic-E-commerce-Extended - Product Listing  - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/5ba47010b9ae48fbb199bb5018297270">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/5ba47010b9ae48fbb199bb5018297270-96fca3390b7bc95a-full-play.gif">
+    </a>
+  </div>
+  
+- **StackBlitz URL:** 
+   [StackBlitz](https://stackblitz.com/edit/stackblitz-starters-grocl4?file=index.js)
+- **Deployed URL:** [Basic-E-commerce-Extended](https://basic-e-commerce-extended-akshay.vercel.app/)
+  
 ## Setup & Deployment
 1. Clone the repository:
    ```sh
-   git clone https://github.com/AkshAI-2030/Basic-E-commerce-Extended
+   git clone https://github.com/AkshAI-2030/Basic-E-commerce-Extended.git
    ```
 2. Install dependencies:
    ```sh
@@ -14,7 +28,8 @@ Basic-E-commerce-Extended is an eCommerce platform expanding from fitness produc
    ```
 3. Start the server:
    ```sh
-   npm start
+   node index.js
+   
    ```
 
 ## API Endpoints
@@ -51,12 +66,6 @@ Basic-E-commerce-Extended is an eCommerce platform expanding from fitness produc
   let cors = require('cors');
   app.use(cors());
   ```
-
-## Live Demo & Resources
-- **Live Video Demo:** [Click Here](#)
-- **StackBlitz URL:** [StackBlitz Project](https://stackblitz.com/edit/stackblitz-starters-grocl4?file=index.js)
-- **Deployed URL:** [Basic-E-commerce-Extended](https://basic-e-commerce-extended-akshay.vercel.app/)
-
 ## Conclusion
-This API provides efficient sorting and filtering for Basic-E-commerce-Extended's product listings, enabling a seamless eCommerce experience.
+This API provides efficient sorting and filtering for Basic-E-commerce-Extended's product listings, enabling a seamless e-commerce experience.
 
